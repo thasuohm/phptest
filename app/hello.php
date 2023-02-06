@@ -14,6 +14,10 @@
 <body>
     <div class="container" style="margin-top: 50px">
         <h1>Test hello</h1>
+
+        <a id="go-home" href="http://localhost/phptest/app" class="something">Go home</a>
+
+
     </div>
 </body>
 

@@ -37,9 +37,10 @@ class CartTest extends TestCase
     public function testType()
     {
         try {
-            $this->cart->addToPrice(10);
+            $this->cart->addToPrice('hello');
         } catch (TypeError $error) {
-            $this->assertStringStartsWith('App\Cart::addToPrice();', $error->getMessage());
+            print_r($error->getMessage());
+            $this->assertStringStartsWith('App\Cart::addToPrice():', $error->getMessage());
         }
     }
 }
