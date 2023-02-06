@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Warning":6,"CalculatorTest::testAdd":4,"CartTest::testType":4},"times":{"Warning":0.01,"CalculatorTest::testAdd":0.005,"CalculatorTest::testSubtract":0,"CalculatorTest::testStr":0,"CartTest::testCorrectNetReturned":0,"CartTest::testTaxValueCanChange":0,"CartTest::testType":0.001}}
